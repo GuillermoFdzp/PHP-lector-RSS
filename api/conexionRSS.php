@@ -11,7 +11,3 @@ function download($ruta){
     curl_close($ch);
     return $salida;
 }
-
-
-
-
