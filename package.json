@@ -1,0 +1,20 @@
+{
+  "name": "php-lector-rss",
+  "version": "1.0.0",
+  "description": "Lector de RSS de noticias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillermoFdzp/PHP-lector-RSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillermoFdzp/PHP-lector-RSS/issues"
+  },
+  "homepage": "https://github.com/GuillermoFdzp/PHP-lector-RSS#readme"
+}
