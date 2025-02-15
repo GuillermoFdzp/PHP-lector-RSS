@@ -4,7 +4,7 @@ $Repit = false;
 
 
 // Cadena de conexión
-$conn_string = "postgres://neondb_owner:npg_sK5GNmXbpA3Z@ep-frosty-surf-a2msft3e-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require";
+$conn_string = "postgres://default:DlC2mcJFxIr4@ep-yellow-dust-a7l7gm6q.ap-southeast-2.aws.neon.tech:5432/verceldb?sslmode=require";
 
 // Conectar a PostgreSQL
 $link = pg_connect($conn_string);
