@@ -5,87 +5,30 @@
     <title>Formulario de Filtro</title>
 
     <style>
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 30px;
-    background-color: #f4f7fc;
-    color: #333;
-}
-h1 {
-    text-align: center;
-    color: #4a90e2;
-}
-fieldset {
-    border: 2px solid #4a90e2;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;
-}
-legend {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #4a90e2;
-}
-label {
-    display: inline-block;
-    width: 180px;
-    margin-top: 10px;
-    font-size: 1.1em;
-    color: #555;
-}
-select, input[type="date"], input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1em;
-    box-sizing: border-box;
-}
-input[type="submit"] {
-    background-color: #4a90e2;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-input[type="submit"]:hover {
-    background-color: #357ab7;
-}
-table {
-    width: 100%;
-    margin-top: 30px;
-    border-collapse: collapse;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-}
-th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-}
-th {
-    background-color: #4a90e2;
-    color: #fff;
-}
-td {
-    color: #555;
-}
-td a {
-    color: #1a0dab;
-    text-decoration: none;
-}
-td a:hover {
-    text-decoration: underline;
-}
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #1a0dab; /* Color de los enlaces */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        i {
+            font-style: italic;
+        }
     </style>
     
 </head>
